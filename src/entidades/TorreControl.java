@@ -19,6 +19,7 @@ public class TorreControl implements AutorizacionAterrizaje {
 		// TODO Auto-generated constructor stub
 	}
 
+	//sobreescritura de metodos
 	@Override
 	public void aterrizajePermitido() {
 		System.out.println("Se encuentra autorizado para aterrizar");
@@ -36,7 +37,8 @@ public class TorreControl implements AutorizacionAterrizaje {
 		System.out.println("Se encuentra autorizado para aterrizar en la pista 2, previa autorización");
 		
 	}
-		
+	
+	//metodos
 	public void mostrarObjVol ( ) {
 		if(objVol.isEmpty()){
 			System.out.println("No hay objetos voladores");
@@ -48,7 +50,6 @@ public class TorreControl implements AutorizacionAterrizaje {
 			
 		}
 	}
-	
 	
 	public void mostrarPermiso () {
 		for (ObjetosVoladores objVol : objVol) {

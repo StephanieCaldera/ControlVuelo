@@ -15,10 +15,11 @@ public class Main {
 	public Main() {
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	public static void main(String[] args) {
 		
 		TorreControl oper = new TorreControl("Juan");
+		
 		//creando objetos
 		Avion avion1 = new Avion(22222, "Vuela Siempre", "AVION");
 		Helicoptero helicop = new Helicoptero(2222, "Paseando", "HELICOPTERO");

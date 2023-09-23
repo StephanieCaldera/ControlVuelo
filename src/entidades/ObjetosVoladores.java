@@ -36,7 +36,7 @@ public abstract class ObjetosVoladores {
 	
 	
 	
-
+    //metodos
 	public abstract void inicioVuelo();
 	
 	public abstract void aterrizajeVuelo();
@@ -62,10 +62,5 @@ public abstract class ObjetosVoladores {
 	public String toString() {
 		return "ObjetosVoladores [matricula=" + matricula + ", aerolinea=" + aerolinea + "]";
 	}
-
-	
-	
-	
-	
 	
 }

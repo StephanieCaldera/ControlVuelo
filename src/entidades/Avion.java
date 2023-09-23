@@ -21,7 +21,7 @@ public class Avion extends ObjetosVoladores {
 		this.clase = clase;
 	}
 
-
+   // sobreescritura de metodos
 	@Override
 	public void inicioVuelo() {
 		System.out.println("Avion despegando...");
